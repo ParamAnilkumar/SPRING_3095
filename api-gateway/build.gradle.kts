@@ -42,6 +42,9 @@ dependencies {
 // https://mvnrepository.com/artifact/org.springdoc/springdoc-openapi-starter-webmvc-api
     testImplementation("org.springdoc:springdoc-openapi-starter-webmvc-api:2.6.0")
 
+    implementation("org.springframework.boot:spring-boot-starter-actuator")
+    implementation("org.springframework.cloud:spring-cloud-starter-circuitbreaker-resilience4j:3.1.2")
+
 }
 
 dependencyManagement {

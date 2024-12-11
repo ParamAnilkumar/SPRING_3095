@@ -6,10 +6,6 @@ import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.*;
 
-/**
- * @project microservice-parent
- * @authorparam on
- **/
 
 @RestController
 @RequestMapping("/api/order")

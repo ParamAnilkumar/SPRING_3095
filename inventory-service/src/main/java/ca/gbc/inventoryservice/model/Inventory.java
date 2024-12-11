@@ -6,10 +6,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-/**
- * @project microservice-parent
- * @authorparam on
- **/
 @Entity
 @Table(name="t_inventory")
 @Getter

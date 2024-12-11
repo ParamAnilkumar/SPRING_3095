@@ -9,10 +9,6 @@ import org.springframework.security.config.annotation.web.configuration.EnableWe
 import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer;
 import org.springframework.security.web.SecurityFilterChain;;
 
-/**
- * @project microservice-parent
- * @authorparam on
- **/
 @Slf4j
 @Configuration
 @EnableWebSecurity
@@ -24,7 +20,9 @@ public class SecurityConfig {
             "/v3/api-docs/**",
             "/swagger-resource/**",
             "/api-docs/**",
-            "/aggregate/**"
+            "/aggregate/**",
+            "/actuator/**"
+
     };
     @Bean
     public SecurityFilterChain securityFilterChain(HttpSecurity httpSecurity)  throws Exception{

@@ -5,10 +5,6 @@ import lombok.*;
 
 import java.math.BigDecimal;
 
-/**
- * @project microservice-parent
- * @authorparam on
- **/
 @Entity
 @Table(name = "t_orders")
 @Getter

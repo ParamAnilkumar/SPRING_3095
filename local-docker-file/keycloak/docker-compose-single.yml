@@ -17,7 +17,7 @@ services :
       ROOT_LOGLEVEL: DEBUG
       JBOSS_LOG_MANAGER_ROOT_LOGGER: DEBUG, stdout, FILE
     ports:
-      - "8080:8080"
+      - "8077:8080"
     volumes:
       - ./realms/:/opt/keycloak/data/import
     depends_on:
